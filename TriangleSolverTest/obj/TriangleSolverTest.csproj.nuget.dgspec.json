@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/lucasarndt/Desktop/Software Assurance/TriangleSolver 2/TriangleSolverTest/TriangleSolverTest.csproj": {}
+  },
+  "projects": {
+    "/Users/lucasarndt/Desktop/Software Assurance/TriangleSolver 2/TriangleSolverTest/TriangleSolverTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lucasarndt/Desktop/Software Assurance/TriangleSolver 2/TriangleSolverTest/TriangleSolverTest.csproj",
+        "projectName": "TriangleSolverTest",
+        "projectPath": "/Users/lucasarndt/Desktop/Software Assurance/TriangleSolver 2/TriangleSolverTest/TriangleSolverTest.csproj",
+        "packagesPath": "/Users/lucasarndt/.nuget/packages/",
+        "outputPath": "/Users/lucasarndt/Desktop/Software Assurance/TriangleSolver 2/TriangleSolverTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lucasarndt/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "runtimeIdentifierGraphPath": "/Users/lucasarndt/Library/Caches/VisualStudio/17.0/MSBuild/10549_3/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
