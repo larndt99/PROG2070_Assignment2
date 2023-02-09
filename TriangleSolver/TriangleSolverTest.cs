@@ -12,7 +12,7 @@ namespace TriangleSolverTest
 	public class TriangleSolverTest
 	{
 		[Test]
-		public void triangleSolver_input333expectEquilateral()
+		public void triangleSolver_input333_expectEquilateral()
 		{
 			//Arrange
 			int firstSide = 3;
@@ -27,6 +27,58 @@ namespace TriangleSolverTest
 			Assert.AreEqual(expected, actual);
 
         }
-	}
+
+		[Test]
+        public void triangleSolver_input886_expectIsosceles()
+        {
+            //Arrange
+            int firstSide = 8;
+            int secondSide = 8;
+            int thirdSide = 6;
+            string expected = "Based on two sides being equal, the type of triangle is an ISOSCELES";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
+        [Test]
+        public void triangleSolver_input655_expectIsosceles()
+        {
+            //Arrange
+            int firstSide = 6;
+            int secondSide = 5;
+            int thirdSide = 5;
+            string expected = "Based on two sides being equal, the type of triangle is an ISOSCELES";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
+        [Test]
+        public void triangleSolver_input323_expectIsosceles()
+        {
+            //Arrange
+            int firstSide = 3;
+            int secondSide = 2;
+            int thirdSide = 3;
+            string expected = "Based on two sides being equal, the type of triangle is an ISOSCELES";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+        }
+    }
+
 }
 
