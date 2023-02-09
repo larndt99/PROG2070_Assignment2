@@ -78,6 +78,91 @@ namespace TriangleSolverTest
             Assert.AreEqual(expected, actual);
 
         }
+
+        [Test]
+        public void triangleSolver_input234_expectScalene()
+        {
+            //Arrange
+            int firstSide = 2;
+            int secondSide = 3;
+            int thirdSide = 4;
+            string expected = "Based on all three sides being different, the type of triangle is a SCALENE";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
+        [Test]
+        public void triangleSolver_input71215_expectScalene()
+        {
+            //Arrange
+            int firstSide = 7;
+            int secondSide = 12;
+            int thirdSide = 15;
+            string expected = "Based on all three sides being different, the type of triangle is a SCALENE";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
+        [Test]
+        public void triangleSolver_input5610_expectScalene()
+        {
+            //Arrange
+            int firstSide = 5;
+            int secondSide = 6;
+            int thirdSide = 10;
+            string expected = "Based on all three sides being different, the type of triangle is a SCALENE";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
+        [Test]
+        public void triangleSolver_input346_expectScalene()
+        {
+            //Arrange
+            int firstSide = 3;
+            int secondSide = 4;
+            int thirdSide = 6;
+            string expected = "Based on all three sides being different, the type of triangle is a SCALENE";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
+        [Test]
+        public void triangleSolver_input458_expectScalene()
+        {
+            //Arrange
+            int firstSide = 4;
+            int secondSide = 5;
+            int thirdSide = 8;
+            string expected = "Based on all three sides being different, the type of triangle is a SCALENE";
+
+            //Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+        }
     }
 
 }
